@@ -9,7 +9,7 @@ from tornado.httpclient import AsyncHTTPClient
 async def f():
     http_client = AsyncHTTPClient()
     try:
-        response = await http_client.fetch("http://www.facebook12131.com")
+        response = await http_client.fetch("http://www.facebook.com")
     except Exception as e:
         print("Error: %s" % e)
     else:
